@@ -5,8 +5,10 @@
 
 void FilterPipelineFactory::Configure(std::initializer_list<std::pair<std::string, FilterFactoryPtr>> creators) {
     filter_creators_.clear();
-    for (const auto& i : creators) {
-        filter_creators_.insert(i);
+    for (const auto& [name, ptr] : creators) {
+        if (ptr) {
+            filter_creators_.insert({name, ptr});
+        }
     }
 }
 

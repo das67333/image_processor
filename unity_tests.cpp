@@ -1,5 +1,6 @@
 #define CATCH_CONFIG_MAIN
-#include "../../contrib/catch/catch.hpp"
+#define CATCH_CONFIG_FAST_COMPILE
+#include "catch2/catch.hpp"
 
 #include <array>
 #include <sstream>
