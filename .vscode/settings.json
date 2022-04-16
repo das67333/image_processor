@@ -1,10 +1,10 @@
 {
     "cmake.debugConfig": {
         "args": [
-            "../examples/example.bmp",
-            "../examples/output.bmp",
-            "-cryst",
-            "1000"
+            // "../examples/example.bmp",
+            // "../examples/output.bmp",
+            // "-cryst",
+            // "1000"
         ]
     },
     "files.associations": {
